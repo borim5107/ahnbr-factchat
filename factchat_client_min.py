@@ -31,6 +31,9 @@
 - usage / finish_reason은 provider에 따라 없을 수 있음
 
 [TODO]
+- router(): 기타 모델 라우팅 분기 확장 
+  - gpt-image-*, grok-*, sonar-*, gemma-* 등
+- build_payload(): 기타 모델 페이로드 빌드 분기 확장
 - _parse_result(): provider별 응답 파싱 분기 확장
 - call(): 네트워크 에러 메시지 정규화
 - 선택적으로 CLI 진입점(__main__) 추가
